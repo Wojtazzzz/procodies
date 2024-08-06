@@ -4,13 +4,15 @@ import Section from '@/components/ui/Section.vue'
 import Heading from '@/components/ui/Heading.vue'
 import Paragraph from '@/components/ui/Paragraph.vue'
 import HGroup from '@/components/ui/HGroup.vue'
+import Image from '@/components/ui/Image.vue'
 import Stocks1Image from '@/assets/images/stocks-1.png';
+import Stocks2Image from '@/assets/images/stocks-2.png';
 </script>
 
 <template>
   <MainLayout>
     <Section>
-      <div class="space-y-10">
+      <div class="space-y-14">
         <div class="text-center">
           <HGroup>
             <Heading type="h2">
@@ -27,9 +29,10 @@ import Stocks1Image from '@/assets/images/stocks-1.png';
             </Paragraph>
           </HGroup>
         </div>
-        <div class="flex flex-col lg:flex-row justify-center items-center gap-8">
+
+        <div class="flex flex-col lg:flex-row justify-center items-center gap-10">
           <div class="basis-1/2 items-center">
-            <img :src="Stocks1Image" alt="" />
+            <Image :src="Stocks1Image" alt="" />
           </div>
           <div class="basis-1/2 flex flex-col items-center gap-y-8">
             <Heading type="h3">
@@ -49,6 +52,31 @@ import Stocks1Image from '@/assets/images/stocks-1.png';
                 </span>
               </Paragraph>
             </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row justify-center items-center gap-10">
+          <div class="basis-1/2 flex flex-col items-center gap-y-8">
+            <Heading type="h3">
+              <span class="text-[42px] font-bold leading-[55px]">Why is everyone buzzing about these boxes?</span>
+            </Heading>
+
+            <div class="space-y-2.5">
+              <Paragraph>
+                <span class="leading-6">
+                  StockX Mystery Boxes are not just about products; they’re about the experience. Imagine the excitement of unveiling top-tier electronics at a fraction of the cost.
+                </span>
+              </Paragraph>
+
+              <Paragraph>
+                <span class="leading-6">
+                  Our boxes include a variety of premium tech items, making it a must-have for every tech enthusiast. Join the buzz and see why everyone is raving about the unbeatable value and surprise factor of Stockx Mystery Boxes!
+                </span>
+              </Paragraph>
+            </div>
+          </div>
+          <div class="basis-1/2 items-center">
+            <Image :src="Stocks2Image" alt="" />
           </div>
         </div>
       </div>
