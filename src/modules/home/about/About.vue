@@ -39,7 +39,7 @@ import Stocks2Image from '@/assets/images/stocks-2.png';
 					</template>
 					<template #right>
 						<Heading type="h3">
-							<span class="text-[42px] font-bold leading-[55px]"
+							<span class="text-[42px] font-bold text-primary-dark leading-[55px]"
 								>Curious about the
 								<span class="text-primary-base">StockX</span> Mystery Box?</span
 							>
@@ -68,7 +68,7 @@ import Stocks2Image from '@/assets/images/stocks-2.png';
 				<InfoSection>
 					<template #left>
 						<Heading type="h3">
-							<span class="text-[42px] font-bold leading-[55px]"
+							<span class="text-[42px] font-bold text-primary-dark leading-[55px]"
 								>Why is everyone buzzing about these boxes?</span
 							>
 						</Heading>
