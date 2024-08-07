@@ -31,7 +31,7 @@ cd procodies && npm install
 npm run dev
 ```
 
-4. Run storybook
+4. Run storybook (http://localhost:6006/)
 
 ```sh
 npm run storybook
