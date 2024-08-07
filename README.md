@@ -1,45 +1,38 @@
-# procodies-task
+# Procodies - recruitment task
+[Deployment: procodies.vercel.app](https://procodies.vercel.app)
 
-This template should help get you started developing with Vue 3 in Vite.
+## Main tools
 
-## Recommended IDE Setup
+1. TypeScript
+2. Vue
+3. Tailwind
+4. PrimeVue
+5. Storybook
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Installation
 
-## Type Support for `.vue` Imports in TS
+Run the following commands:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+1. Clone repository
 
 ```sh
-npm install
+git clone https://github.com/Wojtazzzz/procodies.git procodies
 ```
 
-### Compile and Hot-Reload for Development
+2. Install dependencies
+
+```sh
+cd procodies && npm install
+```
+
+3. Run in dev mode (http://localhost:5173/)
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+4. Run storybook
 
 ```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
+npm run storybook
 ```
