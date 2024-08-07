@@ -1,5 +1,5 @@
 <script setup lang="ts">
-type InputType = 'text' | 'email';
+export type InputType = 'text' | 'email';
 
 defineProps<{
   type: InputType

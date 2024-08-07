@@ -18,7 +18,7 @@ const images = [Stocks1, Stocks2, Stocks3, Stocks4].map((src, index) => ({
     :num-visible="4"
     :pt="{
       thumbnailitems: { class: 'flex mt-5 justify-center gap-3 md:gap-5' },
-      thumbnailitem: { class: 'cursor-pointer', style: {flex: 'unset'} },
+      thumbnailitem: { class: 'cursor-pointer', style: {flex: 'unset'} }
      }"
   />
 </template>
