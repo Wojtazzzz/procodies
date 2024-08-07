@@ -86,9 +86,15 @@ import FormRow from '@/modules/home/hero/paymentForm/FormRow.vue'
             </Heading>
 
             <div class="w-full flex gap-x-4 flex-wrap justify-center">
-              <Image :src="McafeeLogo" alt="McAfee secure" />
-              <Image :src="TrusteLogo" alt="TRUSTe verified" />
-              <Image :src="Bit256Logo" alt="256 Bit encryption" />
+              <div class="max-w-24">
+                <Image :src="McafeeLogo" alt="McAfee secure" />
+              </div>
+              <div class="max-w-24">
+                <Image :src="TrusteLogo" alt="TRUSTe verified" />
+              </div>
+              <div class="max-w-24">
+                <Image :src="Bit256Logo" alt="256 Bit encryption" />
+              </div>
             </div>
           </div>
         </Form>

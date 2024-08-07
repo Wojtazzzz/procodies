@@ -33,7 +33,9 @@ import Stocks2Image from '@/assets/images/stocks-2.png';
 
         <InfoSection>
           <template #left>
-            <Image :src="Stocks1Image" alt="" />
+            <div class="max-w-lg lg:max-w-none">
+              <Image :src="Stocks1Image" alt="" />
+            </div>
           </template>
           <template #right>
             <Heading type="h3">
@@ -77,7 +79,9 @@ import Stocks2Image from '@/assets/images/stocks-2.png';
             </div>
           </template>
           <template #right>
-            <Image :src="Stocks2Image" alt="" />
+            <div class="max-w-lg lg:max-w-none">
+              <Image :src="Stocks2Image" alt="" />
+            </div>
           </template>
         </InfoSection>
       </div>

@@ -6,5 +6,5 @@ defineProps<{
 </script>
 
 <template>
-  <img :src="src" :alt="alt" />
+  <img :src="src" :alt="alt" class="w-full" />
 </template>
