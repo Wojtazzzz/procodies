@@ -23,7 +23,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const h1: Story = {
+export const H1: Story = {
 	args: {
 		type: 'h1',
 	},
@@ -36,7 +36,7 @@ export const h1: Story = {
 	}),
 };
 
-export const h2: Story = {
+export const H2: Story = {
 	args: {
 		type: 'h2',
 	},
@@ -49,7 +49,7 @@ export const h2: Story = {
 	}),
 };
 
-export const h3: Story = {
+export const H3: Story = {
 	args: {
 		type: 'h3',
 	},
@@ -62,7 +62,7 @@ export const h3: Story = {
 	}),
 };
 
-export const h4: Story = {
+export const H4: Story = {
 	args: {
 		type: 'h4',
 	},
@@ -75,7 +75,7 @@ export const h4: Story = {
 	}),
 };
 
-export const h5: Story = {
+export const H5: Story = {
 	args: {
 		type: 'h5',
 	},
@@ -88,7 +88,7 @@ export const h5: Story = {
 	}),
 };
 
-export const h6: Story = {
+export const H6: Story = {
 	args: {
 		type: 'h6',
 	},

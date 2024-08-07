@@ -18,13 +18,13 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const text: Story = {
+export const Text: Story = {
 	args: {
 		type: 'text',
 	},
 };
 
-export const email: Story = {
+export const Email: Story = {
 	args: {
 		type: 'email',
 		placeholder: 'E-mail',
